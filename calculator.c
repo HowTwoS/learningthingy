@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void){
+    real();
+}
+int real(void) {
 
     int counter;
     int operand;
@@ -45,6 +48,6 @@ int main(void) {
 
         printf("Result is: %d\n", result);
     }
-
+real();
     return 0;
 }
